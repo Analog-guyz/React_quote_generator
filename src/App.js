@@ -26,7 +26,7 @@ function App() {
         <div className="quote-wrapper"><h3>"{quote.content}"</h3></div>
         <div className="author-wrapper"><h4>-{quote.author}</h4></div>
         <div className="button-wrapper">
-          <button className="button" onClick={fetchRandomQuote}>New quote</button>
+          <i className="fas fa-redo button " onClick={fetchRandomQuote}></i>
         </div>
         <div className="footer">Made by Analog_guy</div>
       </div>

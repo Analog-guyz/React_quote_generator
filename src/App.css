@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Roboto;
 }
 .app-wrapper{
     background-image: url("https://images.unsplash.com/photo-1602432799369-10a0b4d6dda9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=997&q=80");
@@ -14,7 +15,8 @@ body{
     justify-content: center;
 }
 .box-wrapper{
-    background-color: #BCBAF3;
+    /* background-color: #BCBAF3; */
+    background-image:  linear-gradient(186deg, rgba(0,0,0,1) 0%, rgba(151,18,167,1) 0%, rgba(29,181,198,1) 100%);
     position: relative;
     height: auto;
     width: 650px;
@@ -25,21 +27,32 @@ body{
     display: flex;
  justify-content: center;
 }
+.title-wrapper h1{
+    font-weight: 600;
+    display: flex;
+ justify-content: center;
+}
 .quote-wrapper{
  display: flex;
  justify-content: center;
- margin: 0 20px;
- width: 600px;
+ margin-top: 18px;
+ margin-bottom: 18px;
+ width: 100%;
  height: auto;
- background-color: white;
- 
+ font-size: 1.2rem;
  
 }
 .quote-wrapper h3{
-    margin-left: 17px;
-    margin-right: 17px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0px 15px;
    }
 .author-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.author-wrapper h4{
+    font-weight: 400;
     display: flex;
     justify-content: center;
 }
@@ -49,24 +62,22 @@ body{
     margin-bottom: 20px;
 }
 .button{
-    color: black;
-    background-color: white;
-    font-size: 1.2rem;
-    padding:5px 15px;
-    border-radius: 6px;
-    width: fit-content;
-    border: none;
-    cursor: pointer;
-    white-space: nowrap;
-    transition: 0.5s ease;
+  font-size: 2rem;
+  margin-top:15px ;
+  margin-bottom:15px ;
+  cursor: pointer;
+ 
 }
 .button:hover{
-    background-color: black;
-    color: white;
-    transform: scale(1.1,1.1);
-    transition: 0.5s ease;
+    transform: rotate(360deg);
+    
+    transition: transform .7s ease-in-out;
 }
+
+ 
+
 .footer{
+    font-weight: 300;
     display: flex;
     justify-content: center;
     margin: 0 0 10px 0 ;
