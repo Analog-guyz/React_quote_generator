@@ -4,7 +4,7 @@ body{
     font-family: Roboto;
 }
 .app-wrapper{
-    background-image: url("https://images.unsplash.com/photo-1602432799369-10a0b4d6dda9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=997&q=80");
+    /* background-image: url("https://images.unsplash.com/photo-1602432799369-10a0b4d6dda9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=997&q=80"); */
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -16,11 +16,10 @@ body{
 }
 .box-wrapper{
     /* background-color: #BCBAF3; */
-    background-image:  linear-gradient(186deg, rgba(0,0,0,1) 0%, rgba(151,18,167,1) 0%, rgba(29,181,198,1) 100%);
-    position: relative;
-    height: auto;
-    width: 650px;
+    background: linear-gradient(180deg, rgba(39,57,148,1) 0%, rgba(186,197,228,1) 100%);
+        width: 650px;
    border-radius: 10px;
+
    
 }
 .title-wrapper{
