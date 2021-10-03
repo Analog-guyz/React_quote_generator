@@ -2,6 +2,8 @@ import './App.css';
 import React,{useState,useEffect} from 'react';
 import axios from 'axios'
 import background from './img/bg.jpg'
+
+
 function App() {
   const [ quote, setQuote ] = useState({});
   const [errorMessage, setErrorMessage] = useState("");
